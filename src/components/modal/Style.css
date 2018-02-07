@@ -1,0 +1,58 @@
+.Modal-wrapper{
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px 1px #bbb;
+    position: fixed;
+    top:10%;
+    left: 50%;
+    margin-left:-150px;
+    display: none;
+    transition:all 300ms ease-out;
+    opacity: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 10001;
+    background: #fff;
+    /*transition-property:transform;*/
+}
+
+.Modal-wrapper header{
+    border-bottom: 1px solid #e1e1e1;
+    text-align: left;
+    /*box-sizing: content-box;*/
+}
+.Modal-wrapper header a{
+    display: inline-block;
+    padding: 5px 10px;
+    width: 20%;
+    cursor: pointer;
+}
+.Modal-wrapper header a.active{
+    color:dodgerblue;
+}
+.Modal-wrapper .content{
+    padding: 5px;
+    margin-top: 16px;
+    display: none;
+}
+.Modal-wrapper .content.active{
+    display: block;
+}
+.Modal-wrapper header .closeBtn{
+    float: right;
+    cursor: pointer;
+}
+.Modal-wrapper header .closeBtn i{
+    float: right;
+}
+.Modal-wrapper .content .addition{
+    font-size: 14px;
+}
+.Modal-wrapper .content .addition>a{
+    color: #b1b1b1;
+    cursor: pointer;
+}
+.Modal-wrapper .content .addition>a:hover{
+    color: orangered;
+}

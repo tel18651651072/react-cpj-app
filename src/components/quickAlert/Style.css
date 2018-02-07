@@ -1,0 +1,16 @@
+.quickAlert-wrapper{
+    position: fixed;
+    top:10%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    padding: 8px 5px;
+    border-radius: 8px;
+    font-size: 13px;
+    background: #454545;
+    color: #ffffff;
+    z-index: 10003;
+    opacity: .6;
+    display: none;
+    text-align: center;
+}

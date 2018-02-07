@@ -1,0 +1,9 @@
+.Rinput-wrapper{
+
+}
+.Rinput-wrapper input {
+    padding:10px 6px;
+    box-sizing: border-box;
+    width: 100%;
+    display: table;
+}

@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.App .modalShow {
+  display: block;
+}
+.App .editorModalShow{
+    display: block;
+}
+.App .alertShow{
+    display: block;
+}
+.App .maskShow{
+    display: block;
+}
+.App .enlarge {
+  opacity: 1;
+  transform-origin:center center;
+  transform:translate(0,150px);
+  width: 360px;
+  height: 360px;
+  border-radius: 8px;
+  font-stretch:normal;
+}
+.App .editorModalShow.enlarge{
+    width: 800px;
+    height: 500px;
+    transform:translate(0,50px);
+}
+.App .enlarge span{
+  opacity: 0;
+}
+.App .modelOpacity span{
+  opacity: 1;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    padding: 0 5px;
+}
+@media screen and (min-width:980px){
+    .container{
+        width: 85%;
+        margin: auto;
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 979px){
+    .container{
+        width: 845px;
+        margin: auto;
+        padding: 0 5px;
+    }
+}
+.logo,.home {
+    display: inline-flex;
+    float: left;
+}
+.logo{
+    background: #fff;
+    color: dodgerblue;
+    width: 50px;
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 190%;
+}
+.home{
+    font-size: 14px;
+    margin-left: 30px;
+}
+.home a {
+    text-decoration: none;
+    padding:5px;
+}
+.home a.active {
+    color: dodgerblue;
+}
+.banner{
+    height: 30px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+.navbar li a.active{
+    color: dodgerblue;
+    border:1px solid dodgerblue;
+}
+.navbar li a{
+    padding:1px 3px;
+    border:1px solid darkgray;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

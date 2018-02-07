@@ -1,0 +1,20 @@
+.IdentifyInput-wrapper{
+    display: flex;
+}
+.IdentifyInput-wrapper .Rinput-wrapper {
+    flex:45%;
+}
+.IdentifyInput-wrapper .IdentifyImg {
+    flex: 30%;
+    margin-left: 10px;
+}
+.IdentifyInput-wrapper .IdentifyImg img{
+    width: 100%;
+}
+.IdentifyInput-wrapper .iconBox {
+    flex: 10%;
+}
+.IdentifyInput-wrapper .iconBox i {
+    vertical-align: -webkit-baseline-middle;
+    cursor: pointer;
+}

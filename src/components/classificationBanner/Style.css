@@ -1,0 +1,21 @@
+.classificationBanner-wrapper{
+   height: 30px;
+    margin-top: -20px;
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.classificationBanner-wrapper span{
+    flex: 0 0 80px;
+    padding-top: 15px;
+}
+.classificationBanner-wrapper ul li {
+    list-style: none;
+    float: left;
+    padding: 0px 3px;
+    border:1px solid darkgray;
+    color: darkgray;
+    margin-right: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}

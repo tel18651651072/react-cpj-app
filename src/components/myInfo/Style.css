@@ -1,0 +1,43 @@
+.myInfo-wrapper{
+    padding: 10px 0 20px;
+    margin-bottom: 30px;
+}
+.myInfo-wrapper dl dt, .myInfo-wrapper dl dd{
+    text-align: left;
+    margin-left: 65px;
+}
+.myInfo-wrapper dl dt{
+    font-size: 14px;
+    color: #333;
+}
+.myInfo-wrapper dl dd{
+    font-size: 13px;
+    color: #666;
+}
+.myInfo-wrapper dl dd.rank{
+    /*color: #00c9ff;*/
+    color: #ffa01e;
+    font-size: 12px;
+}
+.myInfo-wrapper dl dd.designTitle{
+    color: #ffa01e;
+}
+.myInfo-wrapper .avatar{
+   width: 60px;
+    height: 60px;
+    float: left;
+    position: relative;
+}
+.myInfo-wrapper .avatar input[type='file'] {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.myInfo-wrapper .avatar img{
+    width: 100%;
+}

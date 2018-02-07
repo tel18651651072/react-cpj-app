@@ -1,0 +1,28 @@
+.searchPage-wrapper{
+    width: 800px;
+    margin: auto;
+}
+.searchPage-wrapper .searchLi{
+    list-style: none;
+    text-align: left;
+    font-size:14px;
+}
+.searchPage-wrapper .searchLi .tagSpan{
+    font-size: 13px;
+}
+.searchPage-wrapper .searchLi .headerline {
+    display: inline-block;
+    padding: 10px 0;
+}
+.searchLi ul {
+    padding-left: 0;
+}
+.searchLi ul .classifyList{
+    display:inline-table;
+    padding: 0px 3px;
+    border:1px solid orangered;
+    color: orangered;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-right: 3px;
+}

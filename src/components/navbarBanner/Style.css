@@ -1,0 +1,42 @@
+
+@media screen and (min-width:980px){
+    .navbarBanner-wrapper{
+        width: 85%;
+        margin: auto;
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 979px){
+    .navbarBanner-wrapper{
+        width: 845px;
+        margin: auto;
+        padding: 0 5px;
+    }
+}
+.banner{
+    height: 30px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+.navbar{
+    padding-left: 0;
+    margin-left:0;
+    -webkit-pading-start:0;
+    -webkit-margin-before: 0;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+.navbar li a.active{
+    color: dodgerblue;
+    border:1px solid dodgerblue;
+}
+.navbar li a{
+    padding:1px 3px;
+    border:1px solid darkgray;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 3px;
+}

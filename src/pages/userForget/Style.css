@@ -1,0 +1,14 @@
+.userForget-wrapper{
+    width: 300px;
+    margin: auto;
+}
+.userForget-wrapper .remark{
+    color: #ccc;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.userForget-wrapper .remark a{
+    color: orangered;
+    cursor: pointer;
+    text-decoration: none;
+}

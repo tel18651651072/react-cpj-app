@@ -1,0 +1,28 @@
+.editorModal-wrapper{
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px 1px #bbb;
+    position: fixed;
+    top:10%;
+    left: 50%;
+    margin-left:-400px;
+    display: none;
+    transition:all 300ms ease-out;
+    opacity: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 10002;
+    background: #fff;
+}
+.editorModal-wrapper .editorFoot{
+    display: flex;
+    width: 30%;
+    margin-left: 70%;
+}
+.editorModal-wrapper .editorFoot .Button{
+    flex: 1;
+}
+.editorModal-wrapper .quickAlertShow{
+    display: block;
+}

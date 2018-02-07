@@ -1,0 +1,62 @@
+.detail-wrapper{
+    text-align: left;
+}
+.detail-wrapper .quickAlertShow{
+    display: block;
+}
+.detail-wrapper .content-part{
+    display: flex;
+    padding: 0 10% 15px;
+    box-shadow: 0 5px 5px #dedede;
+}
+.detail-wrapper .detail-content{
+    flex: 4;
+}
+.detail-wrapper .function-part{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+}
+.function-part .btn-item{
+    font-size: 14px;
+    padding: 1px 5px;
+    border:1px solid dodgerblue;
+    color: dodgerblue;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.function-part .btn-item.followed{
+    color: #ccc;
+    border-color: #ccc;
+}
+.detail-wrapper .detailLi{
+    list-style: none;
+}
+.detail-wrapper .detailLi .foot{
+    color: #bbb;
+    font-size: 12px;
+}
+.detail-wrapper .editor-box{
+    width: 70%;
+    margin-top: 10px;
+}
+.editor-box .foot{
+    text-align: right;
+    padding: 5px;
+}
+.editor-box .foot .submitBtn{
+    padding: 0 5px;
+    border:1px solid #ddd;
+    border-radius:3px;
+    font-size: 13px;
+    color: #ccc;
+    cursor: pointer;
+}
+.editor-box .foot .submitBtn:hover{
+    color: dodgerblue;
+    border-color: dodgerblue;
+}

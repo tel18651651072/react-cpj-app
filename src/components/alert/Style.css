@@ -1,0 +1,35 @@
+.alert-wrapper{
+    width: 200px;
+    /*height: 100px;*/
+    position: fixed;
+    top:10%;
+    left: 50%;
+    margin-left: -100px;
+    box-shadow: 1px 1px 1px 1px #7e8c8d;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 13px;
+    z-index: 10002;
+    display: none;
+    text-align: center;
+}
+.alert-wrapper header{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+}
+.alert-wrapper .content{
+    height: 80px;
+    line-height: 80px;
+}
+.alert-wrapper footer{
+    height: 30px;
+    display: flex;
+    line-height: 30px;
+    color: dodgerblue;
+    cursor: pointer;
+}
+.alert-wrapper footer a {
+    flex: 1;
+    border: 1px solid #eee;
+}

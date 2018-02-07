@@ -1,0 +1,13 @@
+.issue-wrapper{
+    border:1px solid dodgerblue;
+    border-radius: 3px;
+    font-size: 13px;
+    color: dodgerblue;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+.issue-wrapper .issueBtn{
+    padding: 0px 3px;
+}

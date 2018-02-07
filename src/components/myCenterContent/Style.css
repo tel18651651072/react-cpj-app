@@ -1,0 +1,14 @@
+ul li{
+    list-style: none;
+}
+.myCenterList li{
+    padding: 8px 0;
+    border-bottom: 1px solid #dedede;
+}
+.myCenterList li:last-child{
+    border-bottom: 0;
+}
+.myCenterList li a{
+    text-decoration: none;
+    cursor: pointer;
+}

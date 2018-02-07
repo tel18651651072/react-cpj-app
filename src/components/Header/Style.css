@@ -1,0 +1,13 @@
+.header-wrapper{
+    position: relative;
+    height: 50px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.header-wrapper:after{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    clear: both;
+}
