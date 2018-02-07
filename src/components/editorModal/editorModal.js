@@ -137,9 +137,7 @@ class EditorModal extends Component {
         this.reviseArticle = this.store.reviseArticle.slice()
         if (this.reviseArticle.length) {
             this.editor.txt.html(this.reviseArticle[0].content)
-        } else if (this.props.store.issueStatus) {
-            this.store.reviseArticle = []
-        }
+        } 
 
         const className = [
             'editorModal-wrapper',
