@@ -9,7 +9,7 @@ exports.emailTest = function (app) {
         service: 'qq',
         auth: {
             user: '2578962719@qq.com',
-            pass: 'kmqvvuhemssodifg' //授权码,通过QQ获取
+            pass: 'xxxxx' //授权码,通过QQ获取 此处涉及个人隐私屏蔽了 如果要运行请换上自己的
         }
     });
 
